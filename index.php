@@ -15,7 +15,9 @@ echo $person['firstName'] . " is " . $person['age'] . " years old. ----- ( PHP A
 <script>
 var person = { firstName:"Dobrica", lasttName:"Menkovic", age:34 };
 document.getElementById("demo1").innerHTML = person.firstName + " is " + person.age + " years old. ----- ( JS Object )";
-
+    
+// JS Array: var persom = ["Dobrica", "Menkovic", 34];
+    
 // Object Constructor:
 function Person(first, last, age) {
     this.fName = first;
