@@ -24,7 +24,7 @@ function Person(first, last, age) {
     this.lName = last;
     this.age = age;
 }
-var myFather = new Person ("Stanimir", "Menkovic", 70);
+var myFather = new Person ("Stanimir", "Menkovic", 72);
 var myMother = new Person ("Nadica", "Menkovic", 55);
 document.getElementById("demo2").innerHTML = myMother.fName + " is " + myMother.age + " years old. ----- ( JS Object Constructor )";
 </script>
